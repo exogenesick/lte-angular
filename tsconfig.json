@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "removeComments": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": false,
+        "moduleResolution": "node"
+    },
+    "filesGlob": [
+        "./src/**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "./src/boot.ts",
+        "./src/components/app/app.ts",
+        "./src/components/header/header.ts",
+        "./src/components/home/home.ts",
+        "./src/components/sidebar/sidebar.ts",
+        "./src/components/table/simple.ts",
+        "./src/components/tables/tables.ts"
+    ]
+}
